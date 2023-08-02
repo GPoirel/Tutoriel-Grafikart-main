@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Mon restaurant, contact </title>
+        <meta name="description" content="un texte décrivant notre restaurant">
+    </head>
+    <body>
+        <header>
+            <h1>Nous contacter</h1>
+            <nav>
+                <a href="index.html" title="Accueil">Accueil</a>
+                <a href="menu.html" title="Voir le menu">Voir le menu</a>
+                <a href="contact.html" title="Nous contacter">Contact</a>
+            </nav>
+            <img src="images/restaurant.jpg" alt="photo du restaurant le fiasco" width="1305" height="367">
+        </header>
+        <section>
+            <h2>Où nous trouver</h2>
+            <p>
+                123 rue du test<br>
+                75000 Paris<br>
+                France
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21004.89627682412!2d2.315697946819143!3d48.846538508725615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1688314846588!5m2!1sfr!2sfr" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2>Nous envoyer un email</h2>
+            <form action="contact.html">
+                <div>
+                    <label for="email">Votre email<sup>*</sup></label>
+                    <input type="email" required id="email" name="email" placeholder="votre@email.fr">
+                </div>
+                <div>
+                    <label for="firstname">Votre prénom<sup>*</sup></label>
+                    <input type="text" required id="firstname" name="firstname">
+                </div>
+                <div>
+                    <label for="message">Votre message<sup>*</sup></label>
+                    <textarea required id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Envoyez votre email</button>
+            </form>
+        </section>
+        <footer>
+         <address>123 rue du test</address>
+        </footer>
+    </body>
+</html>
